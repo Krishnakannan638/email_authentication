@@ -21,7 +21,7 @@ class _AppSignUpScreenState extends State<AppSignUpScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          iconTheme:const IconThemeData(color: Colors.orange),
+          iconTheme: const IconThemeData(color: Colors.orange),
           backgroundColor: Colors.white,
           elevation: 0.0,
         ),
@@ -228,7 +228,7 @@ class _AppSignUpScreenState extends State<AppSignUpScreen> {
                     height: 50,
                     child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
-                            primary: Colors.orange,
+                            backgroundColor: Colors.orange,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(20))),
                         onPressed: () {
